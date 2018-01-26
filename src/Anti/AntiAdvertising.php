@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ant;
+namespace Anti;
 use Anti\Core;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
