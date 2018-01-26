@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+
 namespace Anti;
 use Anti\AntiAdvertising;
 use Anti\AntiSwearing;
