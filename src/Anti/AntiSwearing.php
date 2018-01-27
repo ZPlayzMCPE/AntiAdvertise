@@ -4,6 +4,7 @@ namespace Anti;
 use Anti\Core;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
+use pocketmine\utils\TextFormat;
 class AntiSwearing implements Listener {
     private $plugin, $badwords;
     public function __construct(Core $plugin) {
