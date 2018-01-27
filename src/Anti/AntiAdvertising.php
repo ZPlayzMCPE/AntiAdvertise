@@ -6,8 +6,9 @@ namespace Anti;
 use Anti\Core;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
+use pocketmine\utils\TextFormat;
 class AntiAdvertising implements Listener {
-    private $links = [".cc", ".net", ".com", ".us", ".co", ".co.uk", ".ddns", ".ddns.net", ".cf", ".me"];
+    private $links = [".cc", ".net", ".com", ".us", ".co", ".co.uk", ".ddns", ".ddns.net", ".cf", ".me", "pocket.pe", "noip"];
     public function __construct(Core $plugin) {
         #Useless
     }
