@@ -8,7 +8,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\utils\TextFormat;
 class AntiAdvertising implements Listener {
-    private $links = [".cc", ".net", ".com", ".us", ".co", ".co.uk", ".ddns", ".ddns.net", ".cf", ".me", ".pocket.pe", ".no-ip", ".live", ".pe", ".ml", ".gov", "http://", "ip", "port", "https://", "www", "cc", "net", "com", "us", "co", "couk", "ddns", "ddns.net", "cf", "me", "pocket.pe", "noip", "live", "pe", "ml", "gov", "http://", "ip", "port", "https://", "www"];
+    private $links = [".cc", ".net", ".co", ".co.uk", ".ddns", ".ddns.net", ".cf", ".pocket.pe", ".no-ip", ".live", ".ml", ".gov", "http://", "ip", "port", "https://", "www", "cc", "net", "co", "couk", "ddns", "ddns.net", "cf", "pocket.pe", "noip", "live", "ml", "gov", "http://", "ip", "port", "https://", "www"];
     public function __construct(Core $plugin) {
         #Useless
     }
